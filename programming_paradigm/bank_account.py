@@ -7,7 +7,9 @@ class BankAccount:
     def deposit(self, amount):
 
         if amount>0:
+
             self.__account_balance = account_balance + amount
+
         else:
             raise ValueError("Deposit amount must be positive.")
     def withdraw(self, amount):
@@ -15,9 +17,9 @@ class BankAccount:
         if amount <=0:
             raise ValueError("Withdrawal amount must be positive.")
         if amount > self.__account_balance:
-            return False
+         return False
         self.__account_balance = account_balance-amount
-            return True
+        return True
 
      def display_balance(self):
 
