@@ -5,9 +5,9 @@ def safe_divide(numerator,demoninator):
 
         result = numerator / denominator
 
-        return f"The result is: {result}"
+        return f"The result of the division is: {result}"
     except ZeroDivisionError:
-        return "Please try a number other than zero."
+        return "Error: Cannot divide by zero."
     except ValueError:
-        return "Please used a integer or float value."
+        return "Error: Please enter numeric value."
 
