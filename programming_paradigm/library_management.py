@@ -53,7 +53,7 @@ class Library
                     return
         print(f"Book '{title}' not found in the library.")
 
-        def list_available_books:
+        def list_available_books(self):
             available_books = [book for book in self._books if book.is_available()]
 
             if available_books:
