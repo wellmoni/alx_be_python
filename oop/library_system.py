@@ -21,8 +21,7 @@ class PrintBook(Book):
             self.page_count = page_count
         def __str__(self):
             return f"{super().__str__()} [PrintBook - {self.page_count} pages]"
-
-    class Library:
+class Library:
 
         def __init__(self):
             self.books = []
