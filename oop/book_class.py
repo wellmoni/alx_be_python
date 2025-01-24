@@ -10,7 +10,7 @@ class Book:
 
         print(f"Deleting '{self.title}'")
 
-    def __srt__(self):
+    def __str__(self):
 
         return f"{self.title} by {self.author}, published in {self.year}"
     def __repr__(self):
