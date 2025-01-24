@@ -24,7 +24,7 @@ class EBook(Book):
 
     class Library:
 
-        def_init__(self):
+        def __init__(self):
             self.books = []
         def add_book(self, book):
 
