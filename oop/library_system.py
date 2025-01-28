@@ -23,6 +23,10 @@ class Library:
         def add_book(self, book):
 
             if isinstance(book, Book):
-                self.books.append(book)            
+                self.books.append(book) 
+        def list_books(self):                                                                                                                                                                                                                                                                                                                                       
+for book in self.books:                                                                                            
+ 	print (f"{book}")    
+
 for book in self.books:                                                                                            
  	print (f"{book}")    
