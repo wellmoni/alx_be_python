@@ -34,12 +34,7 @@ class Library:
 
         def list_books(self):
 
-                if not self.books:
-
-                    print ("THe Library is empty.")
-                else:
-                    print ("Library COllection:")
 
                     for book in self.books:
-                        print (f"    - {book}")
+                        print (f"{book}")
 
